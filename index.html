@@ -3,16 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Centered Title</title>
+    <title>Home Page</title>
+    <!-- Include your CSS styles here -->
     <style>
-        /* CSS code to center the h1 title */
-        h1 {
-            margin-top: 50px; /* Adjust this value to control top margin */
+        /* CSS code for navigation bar styling */
+        nav {
+            background-color: #333; /* Background color of the navigation bar */
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left; /* Float the links to the left */
+            display: block;
+            color: white; /* Text color of the links */
+            text-align: center;
+            padding: 14px 20px; /* Padding around the links */
+            text-decoration: none; /* Remove underline from links */
+        }
+
+        nav a:hover {
+            background-color: #ddd; /* Background color of the links on hover */
+            color: black; /* Text color of the links on hover */
         }
     </style>
 </head>
 <body>
-    <h1>Centered Title</h1>
-    <!-- Your other content goes here -->
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<!-- Your content goes here -->
+
 </body>
 </html>
