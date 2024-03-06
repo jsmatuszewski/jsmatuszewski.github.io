@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title and Subtitle Example</title>
+    <style>
+        /* CSS code for centering title and subtitle */
+        body {
+            text-align: center;
+        }
+        h1 {
+            margin-top: 50px; /* Adjust top margin of title */
+        }
+        h2 {
+            margin-top: 20px; /* Adjust top margin of subtitle */
+        }
+        p {
+            text-align: left; /* Justify paragraph text to the left */
+            margin: 20px auto; /* Add margin to paragraph */
+            max-width: 600px; /* Limit the width of the paragraph */
+        }
+    </style>
+</head>
+<body>
+
+<h1>Math to Story Converter</h1>
+
+<h2>Inspired by:</h2>
+
+<p> Wouldn't it be cool to be able to stick math (e.g. a page from a textbook, an equation, a definition, a theorem) 
+into a computer program and have the computer cook up a story? Maybe these would be I think lots of math is an abstraction of structures, 
+relations, and operations people with no formal math training have had and LOTS of people like thinking about these things. 
+But once you bust out math jargon or a greek letter a good chunk of folks are turned off. I think stories could be a way in for some people. </p>
+
+<p> Aside from welcoming newcomers, students themselves stand to benefit from narrative math pieces. In a recent study facilitated by
+My Own Imagination, people have an easier time remembering things they already have a cognitive schema for. While learning math is not about
+memorization, mnemonic tools can be tremendously helpful when getting your bearings in new math.
+</p>
+
+<p> I'm tempted to describe what I want to generate as "mneumonic stories for/of math" but that's too reductive. Ideally the stories would
+capture the spirit of the math not exist merely for utility. 
+</p>
+
+
+</body>
+</html>
