@@ -33,6 +33,6 @@ and I think at the very least I could devise an algorithm that finds a total dom
 I have 0 evidence this is possible. Most of my observations about the total dominating set were just 
 restatements of the original problem. But I think a viable plan of attack would be generated all of the possible 
 dominating sets for 1<=n<=7 (8, 9, and 10 are just too big) and thinking about what the sets have in common or do not. 
-I probably have more to say about what I know about the problem thus far.</p>
+I did some work already and will update this dump soon.</p>
 
 </html>
