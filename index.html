@@ -36,6 +36,40 @@
             margin-top: 20px;
         }
 
+        .box {
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin: 20px;
+        width: 300px;
+        border-radius: 24px 24px 0 0; 
+    }
+
+    /* Style for the title */
+    .title {
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    /* Style for the content */
+    .content {
+        font-size: 14px;
+        color: #666;
+    }
+
+    /* Style for links */
+    .title a,
+    .content a {
+        text-decoration: none;
+        color: #007bff;
+    }
+
+    /* Hover effect for links */
+    .title a:hover,
+    .content a:hover {
+        text-decoration: underline;
+    }
+
         body {
             background-color: #eaa2ec; /* Change this hex code to your desired color */
         }
@@ -52,11 +86,18 @@
 </nav>
 
 <img src="pictures/Bitmoji.jpg" alt="Description of the image">
-<p>Welcome to the skeleton of my soon-to-be thought-dump. 
+
+<div class="box">
+    <div class="title">
+        <a href="#">A Foreword</a>
+    </div>
+    <div class="content">
+        <a href="#">Welcome to the skeleton of my soon-to-be thought-dump. 
     Ideas past, present, and future will live here alongside the media (e.g. books, music, movies) and knowledge (e.g. research, classnotes) that inspired them.
     Being that this site is a thought-dump, the only criterion for inlcuding a thought here is my having it. 
-    Should developments in technology allow, ideas long forgotten and not yet had will be cataloged here as well.    
-</p>
+    Should developments in technology allow, ideas long forgotten and not yet had will be cataloged here as well. </a>
+    </div>
+</div>
 
 </body>
 </html>
