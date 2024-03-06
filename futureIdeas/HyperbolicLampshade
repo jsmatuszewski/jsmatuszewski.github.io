@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title and Subtitle Example</title>
+    <style>
+        /* CSS code for centering title and subtitle */
+        body {
+            text-align: center;
+        }
+        h1 {
+            margin-top: 50px; /* Adjust top margin of title */
+        }
+        h2 {
+            margin-top: 20px; /* Adjust top margin of subtitle */
+        }
+        p {
+            text-align: left; /* Justify paragraph text to the left */
+            margin: 20px auto; /* Add margin to paragraph */
+            max-width: 600px; /* Limit the width of the paragraph */
+        }
+    </style>
+</head>
+<body>
+
+<h1>Finish A Hyperbolic Lampshade I Started</h1>
+
+<h2>Inspired by:</h2>
+
+<p> I have very strong feelings about lighting. I generally don't like overhead lights and absolutely loathe 
+white flourescent lighting. I've always liked the idea of turning a knit hyperbolic plane into a lampshade. I never took to 
+knitting so I started crocheting one. However, I can't figure out how to crochet a second row, so for now the 
+lampshade is one long stitch. </p>
+
+<p>My ceiling light and I patiently await a constantly negatively curved lampshade:</p>
+<img src="path/to/your/LampshadeProgress.jpeg" alt="Description of your image">
+
+</body>
+</html>
