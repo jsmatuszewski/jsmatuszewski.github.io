@@ -29,11 +29,16 @@
             background-color: #eaa2ec; /* Change this hex code to your desired color */
         }
 
-         .box {
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns */
+            gap: 20px; /* Gap between items */
+            padding: 20px;
+        }
+
+        .box {
             border: 1px solid #ccc;
             padding: 20px;
-            margin: 20px;
-            height: auto;
             border-radius: 24px; /* Adjust border-radius as needed */
             background-color: #ffffff;
         }
@@ -75,7 +80,8 @@
    <!--  <a href="contact.html">Contact</a> -->
 </nav>
 
- <div class="box">
+<div class="container">
+    <div class="box">
         <div class="title">Title 1</div>
         <div class="content">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel aliquet dolor, at blandit mauris. <a href="#">Link</a>
@@ -89,19 +95,15 @@
         </div>
     </div>
 
-     <div class="box">
-        <div class="title">Title 1</div>
+    <div class="box">
+        <div class="title">Title 3</div>
         <div class="content">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel aliquet dolor, at blandit mauris. <a href="#">Link</a>
         </div>
     </div>
 
-    <div class="box">
-        <div class="title">Title 2</div>
-        <div class="content">
-            Sed pulvinar arcu eu arcu rhoncus, nec elementum justo finibus. <a href="#">Link</a>
-        </div>
-    </div>
+    <!-- Add more boxes as needed -->
+</div>
 
 </body>
 </html>
