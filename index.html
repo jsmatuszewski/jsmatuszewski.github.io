@@ -19,21 +19,20 @@
             text-align: center;
             padding: 14px 20px; /* Padding around the links */
             text-decoration: none; /* Remove underline from links */
-            font-size: 18px;
         }
 
         nav a:hover {
             background-color: #ddd; /* Background color of the links on hover */
             color: black; /* Text color of the links on hover */
         }
-
-        img {
-            width: 200px; /* Set the width of the image to 200 pixels */
-            height: auto; /* Maintain the aspect ratio of the image */
-            float: left;
-            margin-right: 20px; 
-            margin-left: 20px;
-            margin-top: 20px;
+         table {
+            width: 100%; /* Make the table fill the entire width of its container */
+            border-collapse: collapse; /* Collapse table borders */
+             margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid black; /* Add borders to cells */
+            padding: 8px; /* Add padding to cells */
         }
 
         .container {
@@ -51,15 +50,30 @@
 
         /* Style for the title section */
        /* Style for the title section */
-.title-section {
-    background-color: #03c16A; /* Blue background color */
-    color: white; /* Text color */
-    padding: 10px; /* Adjust padding as needed */
-    border-radius: 22px 22px 0 0;/* Match the border-radius of the box */
-    text-align: center; /* Center the text */
-    margin-bottom: -10px;
-    border-bottom: 2px solid black;/* Overlap with the border of the box */
-}
+  .title-section {
+      background-color: #03c16A; /* Blue background color */
+      color: white; /* Text color */
+      padding: 10px; /* Adjust padding as needed */
+      border-radius: 22px 22px 0 0;/* Match the border-radius of the box */
+      text-align: center; /* Center the text */
+      margin-bottom: -10px;
+      border-bottom: 2px solid black;/* Overlap with the border of the box */
+  }
+
+    /* Style for title section 1 */
+      .title-section.title1 {
+          background-color: #FE7C0F; /* Change background color as needed */
+      }
+      /* Style for title section 2 */
+      .title-section.title2 {
+          background-color: #0096ff; /* Change color as needed */
+      }
+
+      /* Style for title section 3 */
+      .title-section.title3 {
+          background-color: #03c16A; /* Change color as needed */
+      }
+
 
         /* Style for the title */
         .title {
@@ -100,24 +114,87 @@
 <nav>
    <a href="index.html">Home</a>
    <a href="IWantTo.html">I want to...</a>
-   <a href="IAmInspiredBy.html">I'm inspired by...</a>
+   <a href="IAmInspiredBy.html">I am inspired by...</a>
    <!--  <a href="contact.html">Contact</a> -->
 </nav>
 
-<div class="container">
-    <img src="pictures/Bitmoji.jpg" alt="Description of the image">
-    <div class="box">
-        <div class="title-section">
-            <div class="title">
-                <p>A Foreword</p>
-            </div>
-        </div>
-        <div class="content">
-            <p>Welcome to the skeleton of my soon-to-be thought-dump. Ideas past, present, and future will live here alongside the media (e.g. books, music, movies) and knowledge (e.g. research, classnotes) that inspired them.</p>
-            <p>Being that this site is a thought-dump, the only criterion for including a thought here is my having it. Should developments in technology allow, ideas long forgotten and not yet had will be cataloged here as well.</p>
-        </div>
+<div class="box">
+    <div class="title-section title1">
+     <div class="title">
+        <p>Write...</p>
     </div>
+    </div>
+    <div class="content">
+        <p>Welcome to the skeleton of my soon-to-be thought-dump. Ideas past, present, and future will live here alongside the media (e.g. books, music, movies) and knowledge (e.g. research, classnotes) that inspired them.</p>
+        <p>Being that this site is a thought-dump, the only criterion for including a thought here is my having it. Should developments in technology allow, ideas long forgotten and not yet had will be cataloged here as well.</p>
+    </div>
+
 </div>
+</div>
+
+<div class="box">
+     <div class="title-section title2">
+     <div class="title">
+        <p>Write...</p>
+    </div>
+    </div>
+<div class="content">
+    <p>Welcome to the skeleton of my soon-to-be thought-dump. Ideas past, present, and future will live here alongside the media (e.g. books, music, movies) and knowledge (e.g. research, classnotes) that inspired them.</p>
+    <p>Being that this site is a thought-dump, the only criterion for including a thought here is my having it. Should developments in technology allow, ideas long forgotten and not yet had will be cataloged here as well.</p>
+</div>
+
+</div>
+</div>
+
+<div class="box">
+     <div class="title-section title3">
+     <div class="title">
+        <p>Write...</p>
+    </div>
+    </div>
+<div class="content">
+    <p>Welcome to the skeleton of my soon-to-be thought-dump. Ideas past, present, and future will live here alongside the media (e.g. books, music, movies) and knowledge (e.g. research, classnotes) that inspired them.</p>
+    <p>Being that this site is a thought-dump, the only criterion for including a thought here is my having it. Should developments in technology allow, ideas long forgotten and not yet had will be cataloged here as well.</p>
+</div>
+
+</div>
+</div>
+
+<table>
+<tr>
+    <th>Last Updated</th>
+    <th>Idea</th>
+    <th>Inspiration</th>
+</tr>
+<tr>
+    <th> March 5th, 2024 </th>
+    <td><a href="futureIdeas/AdverserialRipsComplex.html">Adverserial Vietoris-Rips</a></td>
+    <th>Inspiration</th>
+</tr>
+<tr>
+    <th> March 5th, 2024 </th>
+    <td><a href="futureIdeas/AdverserialRipsComplex.html">Total Domination Number of the n-cube</a></td>
+    <th>Inspiration</th>
+</tr>
+<tr>
+    <th> March 5th, 2024 </th>
+    <td><a href="futureIdeas/HyperbolicPlaneGun.html">A Hyperbolic Plane Camera</a></td>
+    <th>Inspiration</th>
+</tr>
+<tr>
+    <th> March 5th, 2024 </th>
+    <td><a href="futureIdeas/MathToNarrativePieces.html">Math to Story Conversion Tool</a></td>
+    <th>Inspiration</th>
+</tr>
+<tr>
+<th> March 5th, 2024 </th>
+<td><a href="futureIdeas/HyperbolicLampshade.html">Hyperbolic Lampshade</a></td>
+<th>Inspiration</th>
+</tr>
+<!-- Add more rows as needed -->
+</table>
+    
+
 
 </body>
 </html>
